@@ -1,0 +1,57 @@
+
+
+
+
+#left {
+    
+    float: left;
+    width: 64%;   
+}
+
+#right {
+    float: right;
+    width: 33%;
+}
+
+/* CSS FOR THE ARTICLE */
+
+#title{
+    text-align: center;   
+}
+.article {
+    text-indent: 15px;
+    line-height: 1.8;
+    font-size: 1.2em;
+}
+
+.workscited {
+      padding-top: 50px;
+      padding-left: 50px;
+      padding-bottom: 150px;
+      font-size: 10px;
+      
+}
+
+.subheader {
+    text-align: center;
+    font-size: 2em;
+    padding-top: 20px
+}
+
+.list {
+
+    font-size: 2em;
+    padding-left: 2%;
+}
+
+@media all and (max-width:1107px) {
+
+#left {
+    float: none;
+    width: 100%;   
+}
+
+#right {
+    float: none;
+    width: 100%;   
+}

@@ -1,0 +1,233 @@
+/* Global rules */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+}
+
+.sub-title {
+    color: #950740;
+    font-size: 1.2em;
+    text-align: center;}
+
+.sizeheader{
+    margin: 0 auto 0 auto; /*top, right, bottom, letf*/
+    max-width: 1280px;
+
+    background-color: #4E4E50;
+}
+p, h1,h2, h3{
+    color:white;
+}
+.logo, .sub-title{
+    font-family: 'Rock Salt', cursive;
+}
+
+section h2{
+    text-align: center;
+}
+
+html, body {
+    background-color: #4E4E50;
+    padding:0;
+    margin:0;
+    
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 0.95em;
+    line-height: 1.5em;
+}
+
+::selection {
+    color: #4E4E50; 
+    background: #950740;
+}
+
+h1 {
+    font-weight: normal;
+    margin: auto;
+    background: #4E4E50;
+    line-height: 2.5em;
+}
+
+div.wrapper {
+    background-color: #1A1A1D;
+    max-width: 1280px;
+    margin: 0 auto 0 auto; /*top, right, bottom, letf*/
+    overflow: auto; /*To remind the parent element (div.wrapper) of any floated child element (Children of of elements inside div.wrapper*/
+}
+
+.logo { /* Style any h1 inside header*/
+    text-align: center;
+    
+    max-width: 1280px;
+    font-size: 5em;
+    letter-spacing: -2.6px;
+    word-spacing: 0.2px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
+
+
+    margin-top: 0px;
+    padding: 0px;
+    color: #950740;
+    background-color: #1A1A1D;
+    letter-spacing: 3px;
+    font-weight:bold;
+
+
+}
+
+.subh1 {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #A9A9A9;
+
+    
+}
+
+.center-children {
+  text-align: center;
+}
+
+h2, p {
+    padding:  0.5em;
+}
+
+p {
+    margin: 1em 1em;
+    font-size: 1.2em;
+}
+
+
+h2, h3 {
+    font-weight: normal;
+    margin-left: 1em;
+    line-height: 1em;
+}
+
+.section {
+    float: left;
+    width: 64%; 
+    
+}
+
+aside {
+    float: right;
+    width: 30%;
+    
+}
+
+
+footer, footer a {
+    clear: both;
+    text-align: center;
+    padding: 1em;
+    color: #950740;
+}
+.link {
+    color: #950740;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.centertitle{
+    text-align: center;
+    text-decoration-style: solid;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+aside{
+    padding-top: 30px;
+}
+
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; overflow: hidden; 
+    max-width: 100%; 
+} 
+.embed-container iframe { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    height: 100%; 
+}
+
+div.embed-container.agenda-view {
+    display: none;
+}
+
+/* IMAGE/FIGURE RULES */
+figure {
+    display: inline-block;
+    border: 5px solid #A9A9A9;
+    padding: 5px;
+    margin: 1px;
+    
+}
+
+figcaption{
+    text-align: center;
+    font-weight: bold;
+}
+
+.gallery {
+    text-align: center;
+}
+
+figure:hover{
+    border: 5px solid #950740;
+}
+
+
+/* PHONE RESPONSIVE RULES */
+@media all and (max-width:1107px) {
+
+section {
+    float: none;
+    width: 100%;   
+}
+
+aside {
+    padding-top: 0;
+    float: none;
+    width: 100%;
+
+}
+
+    .menulike{
+        font-family: Montserrat, sans-serif;
+        font-weight: 700;
+    }
+    
+    .contact{
+        padding-left: 10%;
+    }
+
+/* CALENDAR RULES */
+    
+@media all and (max-width:860px){
+    div.embed-container.agenda-view {
+    display: block;
+    }    
+    
+    div.embed-container.month-view {
+    display: none;
+    }
+        
+} 
+    
+/* MAIN TITLE RULES */
+    @media all and (max-width:930px){
+        .logo{
+            font-size: 3em;
+        }
+    }
+
